@@ -14,7 +14,7 @@ input {
     font-size: large;
 }
 
-#prisijungimas {
+.prisijungimas {
     height: 200px;
     width: 500px;
     position: fixed;
@@ -38,14 +38,24 @@ a {
     transition: all 0.5s;
 }
 
-a:hover {
+a,
+.list-group-item:hover {
     color: blue;
     text-decoration: underline;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .tekstas {
     font-size: large;
     text-align: center;
     line-height: 2;
+}
+
+.patinka {
+    padding-left: 10px;
+}
+
+.modal-title {
+    margin: auto auto auto auto;
 }
