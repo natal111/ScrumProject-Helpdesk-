@@ -1,4 +1,19 @@
 button {
     border: 0 solid black;
     background-color: blue;
+    font-size: large;
+}
+
+input {
+    font-size: large;
+}
+
+form {
+    height: 200px;
+    width: 500 px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    font-size: large;
+    line-height: 1.5;
 }
