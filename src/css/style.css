@@ -14,9 +14,9 @@ input {
     font-size: large;
 }
 
-#forma {
+#prisijungimas {
     height: 200px;
-    width: 500 px;
+    width: 500px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -28,7 +28,7 @@ input {
 
 #uzklausa {
     display: flex;
-    vertical-align: text-top;
+    vertical-align: top;
     justify-content: center;
 }
 
