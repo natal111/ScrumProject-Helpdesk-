@@ -6,7 +6,7 @@ button {
     border: 0 solid black;
     background-color: blue;
     font-size: large;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     display: block;
 }
 
