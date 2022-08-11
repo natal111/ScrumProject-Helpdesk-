@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Kliento kabinetas[Helpdesk]</title>
+
+    <script>
+        function Alert() {
+            alert("Ačiū, jūsų uzklausa priimta. Netrukus gausite atsakymą");
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container-fluid p-5 bg-secondary text-black text-center">
+        <h1>Mano klausymai</h1>
+        <p style="float: right">Vardas Pavarde</p>
+    </div>
+    <p class="tekstas">Atsakymus į dažniausiai užduodamus klausimus rasite skiltyje <a href="faq.html">FAQ</a></p>
+    <div id="uzklausa">
+        <form>
+            <label for="selection">Pasirinkite uzklausos kategoriją</label>
+            <select id="selection" required="required">
+                <option value="">Rinktis</option>    
+                <option value="1">Klausimas</option>
+                <option value="2">Skundas</option>        
+            </select>
+            <input type="text" id="klausymas" style="width: 400px; height: 200px;" placeholder="Įveskite savo uzklausą">
+            <button type="submit" onclick="Alert()">Siūsti</button>
+        </form>
+    </div>
+    <div class="container mt-3">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Klausimas (skundas)</th>
+                    <th>Atsakymas</th>
+                    <th>Užklausos būsena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Klausimas</td>
+                    <td>Atsakymas</td>
+                    <td>Pateiktas</td>
+                </tr>
+                <tr>
+                    <td>Skundas</td>
+                    <td>Atsakymas</td>
+                    <td>Svarstomas</td>
+                </tr>
+                <tr>
+                    <td>Klausimas</td>
+                    <td>Atsakymas</td>
+                    <td>Išspręstas</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
