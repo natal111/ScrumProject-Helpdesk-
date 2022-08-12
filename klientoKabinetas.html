@@ -25,7 +25,7 @@
     </div>
     <p class="tekstas">Atsakymus į dažniausiai užduodamus klausimus rasite skiltyje <a href="faq.html">FAQ</a></p>
     <div id="uzklausa">
-        <form>
+        <form onsubmit="Alert()">
             <label for="selection">Pasirinkite uzklausos kategoriją</label>
             <select id="selection" required="required">
                 <option value="">Rinktis</option>    
@@ -33,7 +33,7 @@
                 <option value="2">Skundas</option>        
             </select>
             <input type="text" id="klausymas" style="width: 400px; height: 200px;" placeholder="Įveskite savo uzklausą">
-            <button type="submit" onclick="Alert()">Siūsti</button>
+            <button type="submit">Siūsti</button>
         </form>
     </div>
     <div class="container mt-3">
